@@ -1,6 +1,8 @@
 streamlit
 transformers
 huggingface_hub
-PyPDF
+PyPDF2
 docx
 sentence-transformers
+PyPDF2
+docx2txt
