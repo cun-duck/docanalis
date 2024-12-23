@@ -7,7 +7,6 @@ from PyPDF2 import PdfReader
 
 # Login with Hugging Face token stored in Streamlit Secrets
 hf_token = st.secrets["huggingface"]["token"]
-login(hf_token)
 
 # Initialize models for different tasks
 summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
